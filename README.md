@@ -1,8 +1,8 @@
 # Bamazon
 
-![alt text](Images/first.png "Introduction")
-![alt text](Images/second.png "User choice")
-![alt text](Images/third.png "Conclusion")
+![alt text](images/first.png "Introduction")
+![alt text](images/second.png "User choice")
+![alt text](images/third.png "Conclusion")
 
 This application takes in user input for single-product purchases.
 
