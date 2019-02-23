@@ -1,5 +1,9 @@
 # Bamazon
 
+![alt text](Images/first.png "Introduction")
+![alt text](Images/second.png "User choice")
+![alt text](Images/third.png "Conclusion")
+
 This application takes in user input for single-product purchases.
 
 Bamazon shows the user a list of products
