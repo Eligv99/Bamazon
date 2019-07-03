@@ -1,18 +1,44 @@
 # Bamazon
 
+This is an online shopping-like application that uses a SQL database for inventory management. It has three "views" - one for customers, one for managers, and one for a supervisor.
+
+The app allows customers to purchase items, which are displayed to them with a description and price. When a customer makes a purchase, the database will update the inventory accordingly. If there are not enough units available to satisfy a customers order, they will receive an error message letting them know.
+
+# Demo
+
 ![alt text](images/first.png "Introduction")
 ![alt text](images/second.png "User choice")
 ![alt text](images/third.png "Conclusion")
 
-This application takes in user input for single-product purchases.
+## Installing
 
-Bamazon shows the user a list of products
+To run the app locally, you will first need to git clone the repository to your local machine. 
 
-The user selects a product and tells Bamazon the corresponding product ID
+HTTPS:
+````
+$ git clone https://github.com/Eligv99/bamazon.git
+````
+SSH:
+````
+$ git clone git@github.com:Eligv99/bamazon.git
+````
 
-The user tells Bamazon a desired quantity
+Once cloned, cd into the repository and install the necessary dependencies by running:
+````
+$ npm install
+````
 
-Bamazon compares the user's desired quantity with the current inventory
+You can then run the app in the customer view by running:
+````
+$ node bamazonCost.js
+````
 
-The purchase cannot move forward until the user requests a quantity that's less than or equal to what's in stock
-Once a fulfillable quantity is requested, Bamazon processes the order and simultaneously reduces that product's quantity in the inventory database
+## Built With
+
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime
+* [MySQL](https://www.mysql.com/) - Database management
+* [npm](https://www.npmjs.com/) - Dependency management
+
+
+## Authors
+See contribution history [here](https://github.com/Eligv99/bamazon/graphs/contributors)
